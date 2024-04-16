@@ -17,7 +17,7 @@ const Advance = () => {
 
     useEffect(()=>{
         getAllAdvance();
-        getAllEmploye();
+        getAllEmployee();
     }, [])
 
     const getAllAdvance = async () => {
